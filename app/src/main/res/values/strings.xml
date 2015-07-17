@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">SargaWatch</string>
 
+    <string name="parse_app_id">9UGPloUYvbYye493hQvJjprbIsFikojxJeoDf0yD</string>
+    <string name="parse_client_key">Hv8TM23mMb5gAQDOZ9uZqEGeoApe1RhE7VVd9upo</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

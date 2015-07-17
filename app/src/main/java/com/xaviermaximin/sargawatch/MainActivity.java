@@ -16,15 +16,9 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         Parse.enableLocalDatastore(this);
 
-        Parse.initialize(this, "9UGPloUYvbYye493hQvJjprbIsFikojxJeoDf0yD", "Hv8TM23mMb5gAQDOZ9uZqEGeoApe1RhE7VVd9upo");
 
-        ParseObject testObject = new ParseObject("TestObject");
-        testObject.put("foo", "bar");
-        testObject.saveInBackground();
 
     }
 
