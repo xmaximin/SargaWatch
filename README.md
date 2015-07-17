@@ -5,11 +5,11 @@ Because I was in holiday on my Island Guadeloupe and I could see in my own eyes 
 
 ### HOW ###
 By allowing people to share their experience on the beach .
-People go the the beach and can send a photo of the beach so people don't move to unclean beach for nothing and have a better holiday experience.
+People go the the beach and can send a photo of the beach so people don't move to unclean beach for nothing and have a better holiday experience. (First Android App, then iOS App)
 
 ### WHAT ###
 
-A Android App (iOS come after) with this ...
+Mobile app ...
 
 ### ... Features: ###
 - facebook , twitter and email registration process
