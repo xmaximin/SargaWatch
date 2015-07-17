@@ -5,23 +5,36 @@ import android.app.Application;
 import com.bugsnag.android.Bugsnag;
 import com.parse.Parse;
 import com.parse.ParseACL;
-import com.parse.ParseUser;
 import com.parse.ParseCrashReporting;
+import com.parse.ParseUser;
 
 /**
  * Created by xavier on 14/07/2015.
  */
-public class SargaWatchApplication  extends Application {
+public class SargaWatchApplication extends Application {
 
     @Override
     public void onCreate() {
         super.onCreate();
 
+        // BugSnag Initialization
+        initilizationOfBugSnag();
+        // Parse Initialization
+        initializationOfParse();
+    }
 
-        // third party service to capture exceptions
+    /**
+     *  Third party service to capture exceptions
+     */
+    private void initilizationOfBugSnag() {
         Bugsnag.init(this);
+    }
 
 
+    /**
+     *  Third party to manage data, push notification to facilitate data mobile development.
+     */
+    private void initializationOfParse() {
         // Initialize Crash Reporting.
         ParseCrashReporting.enable(this);
 
@@ -30,7 +43,6 @@ public class SargaWatchApplication  extends Application {
 
         // Add your initialization code here
         Parse.initialize(this);
-
 
         ParseUser.enableAutomaticUser();
         ParseACL defaultACL = new ParseACL();
