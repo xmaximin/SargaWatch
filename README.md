@@ -9,7 +9,7 @@ People go the the beach and can send a photo of the beach so people don't move t
 
 ### WHAT ###
 
-Mobile app ...
+Mobiles app(first Android later iOS) with theses ...
 
 ### ... Features: ###
 - facebook , twitter and email registration process
