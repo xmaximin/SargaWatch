@@ -20,7 +20,6 @@ public class MainActivity extends ActionBarActivity {
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
 
-
     }
 
     @Override
