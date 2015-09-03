@@ -21,6 +21,9 @@ public class SargaWatchApplication extends Application {
         initilizationOfBugSnag();
         // Parse Initialization
         initializationOfParse();
+
+
+
     }
 
     /**
